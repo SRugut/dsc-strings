@@ -120,7 +120,7 @@ Below we have a method that works with a String, but does not work with an integ
 
 
 ```python
-'Homer Simpson'.upper()
+'Homer Simpson'.lower()
 ```
 
 
@@ -132,7 +132,7 @@ Below we have a method that works with a String, but does not work with an integ
 
 
 ```python
-42.upper()
+55.upper()
 ```
 
 
@@ -153,7 +153,7 @@ Here is an examples that follows this format and returns a `True` or `False` val
 
 
 ```python
-"Homer Simpson".endswith('Simpson')
+"Homer Simpson".endswith('Homer')
 ```
 
 
@@ -165,7 +165,7 @@ Here is an examples that follows this format and returns a `True` or `False` val
 
 
 ```python
-"Charles Montgomery Burns".endswith('Simpson')
+"Charles Montgomery Burns".endswith('Burns')
 ```
 
 
@@ -606,7 +606,7 @@ Our next step is to use our formula of datatype-dot-method name-parentheses, and
 
 
 ```python
-"smithers".capitalize()
+"sMITHERS".capitalize()
 ```
 
 
@@ -637,7 +637,7 @@ Then we try this new method out ourselves, to see if this user on StackOverFlow 
 
 
 ```python
-"hello world".title()
+"hello world".capitalize()
 ```
 
 
