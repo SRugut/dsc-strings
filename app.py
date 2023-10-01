@@ -7,3 +7,8 @@ sum = 0
 for num in range(1, 6):
     sum += num
 print("Sum:", sum)
+
+
+fruits = ["apple", "cherry", "banana"]
+for fruit in fruits:
+  print("I like ", fruit)
