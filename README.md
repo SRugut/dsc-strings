@@ -37,12 +37,8 @@ Let's look at an example below:
 
 
 ```python
-type("Homer Simpson")
+type(1993)
 ```
-
-
-
-
     str
 
 
